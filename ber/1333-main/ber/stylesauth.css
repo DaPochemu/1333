@@ -1,0 +1,29 @@
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #f4f4f4;
+        } 
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+        header .logo a, header nav a {
+            font-size: 24px;
+            font-weight: bold;
+        }
+                header .logo a{
+            color: #007bff;
+                }
+                header nav a{
+                    color: #333;
+                }
+        header .logo a:link, header nav a:link{
+            text-decoration: none;
+        }
